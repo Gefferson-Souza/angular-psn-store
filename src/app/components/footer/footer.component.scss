@@ -1,0 +1,9 @@
+.footer-container {
+  display: flex;
+  background-color: var(--background-color);
+  text-align: center;
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

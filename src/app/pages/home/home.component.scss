@@ -1,0 +1,13 @@
+.home-container{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: var(--text-color);
+  max-width: 1200px;
+  margin-bottom: 1rem;
+}

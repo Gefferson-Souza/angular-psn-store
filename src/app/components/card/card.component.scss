@@ -1,0 +1,28 @@
+.card-container {
+  position: relative;
+  border-radius: 10px;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  inherits:false;
+  img {
+    min-width: 100%;
+
+    &:hover {
+      animation: escala cubic-bezier(0.5, 1, 0.5, 1) 0.5s both;
+    }
+  }
+}
+
+@keyframes escala {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+}

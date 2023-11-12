@@ -1,0 +1,26 @@
+:root {
+  --text-color: #fff;
+  --primary-color: rgba(0, 213, 255, 0.548);
+  --secondary-color: rgba(9, 9, 121, 1);
+  --third-color: rgba(2, 0, 36, 1);
+  --label-color: #0D0D0D;
+  --background-color: #ffffff;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--third-color);
+  background: linear-gradient(
+    90deg,
+    var(--third-color) 0%,
+    var(--secondary-color) 35%,
+    var(--primary-color) 100%
+  );
+}
